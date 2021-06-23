@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Learn Something New</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -12,7 +15,7 @@
 <!--Navbar Started-->
 
 <div class="container">
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg  navbar-light bg-light ">
  
     <div class="container-fluid">
       <a class="navbar-brand" href="#"><img src="images/ICON/Logo.png" alt="E-School"/></a>
@@ -20,8 +23,8 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       
-      <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
-        <div class="navbar-nav mx-auto">
+      <div class="collapse navbar-collapse justify-content-end " id="navbarNavAltMarkup">
+        <div class="navbar-nav">
           <a class="nav-link active" aria-current="page" href="#">Books</a>
           <a class="nav-link" href="#">Course</a>
           <a class="nav-link" href="#">Others</a>
@@ -35,7 +38,7 @@
 
 <!--Hero Section-->
 <div class="container container-margin">
-    <div class="row align-items-center">
+    <div class="row">
         <div class="col-md-6">
             <span class="span-color">Are you ready to Learn?</span>
             <h2 class="main-heading">Learn With fun </br>On <span class="head-color">any schedule</span></h2>
@@ -43,32 +46,189 @@
             <button class="signin" href="#">Get Started</button>
         </div>
         <div class="col-md-6">
-            <img src="images/Photos/Illustration.png" />
+            <img class="img-fluid" src="images/Photos/Illustration.png" />
         </div>
     </div>
 
 </div>
 
 <!--Icon Section-->
-<div class="container container-margin">
-    <div class="row icons">
-        <div class="col-md-3 justify-content-center">
-            <img class="text-center" src="images/ICON/book.png"/>
+<div class="container container-margin ">
+    <div class="row text-center justify-content-center">
+        <div class="col">
+          <div class="card common">
+            <img src="images/ICON/book.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h2 class="card-title">1500+ Topic</h2>
+              <p class="card-text">Learn Anythings</p>
+            </div>
+          </div>
         </div>
-        <div class="col-md-3 justify-content-center">
-            <img class="text-center" src="images/ICON/Student.png"/>
+        <div class="col">
+          <div class="card common">
+            <img src="images/ICON/Student.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h2 class="card-title">1800+ Students</h2>
+              <p class="card-text">Learn Anythings</p>
+            </div>
+          </div>
         </div>
-        <div class="col-md-3 justify-content-center">
-            <img class="text-center"  src="images/ICON/Students.png"/>
+        <div class="col">
+          <div class="card common">
+            <img src="images/ICON/Students.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h2 class="card-title">2000+ Student</h2>
+              <p class="card-text">Learn Anythings</p>
+            </div>
+          </div>
         </div>
-        <div class="col-md-3 justify-content-center">
-            <img class="text-center" src="images/ICON/Test.png"/>
+        <div class="col">
+          <div class="card common">
+            <img src="images/ICON/Test.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h2 class="card-title">9K+ Test Token</h2>
+              <p class="card-text">Learn Anythings</p>
+            </div>
+          </div>
         </div>
-    </div>
+      </div>
 </div>
 
+<!--Course Section-->
+<div class="container container-margin">
+    <div class="course text-center">
+        <h2>Online Courses</h2>
+    </div>
 
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/Photos/Morder psyc.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h2 class="card-title">Modern Psychology</h2>
+              <p class="card-text">Designation</p>
+              <button class="signin" href="#">Buy Course</button>
+            </div>
+            <div class="devs">
+              <div class="row">
+                  <div class="col-md-6 icon-icon d-flex">
+                    <img  src="images/ICON/calendar.png" />
+                    <p>Start 20 April, 2021</p>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="col-md-6 icon-icon d-flex">
+                        <img  src="images/ICON/people.png" />
+                        <p>60 seats</p>
+                      </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/Photos/Morder pychons.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h2 class="card-title">Modern Psychology</h2>
+              <p class="card-text">Designation</p>
+              <button class="signin" href="#">Buy Course</button>
+            </div>
+            <div class="devs">
+                <div class="row">
+                    <div class="col-md-6 icon-icon d-flex">
+                      <img  src="images/ICON/calendar.png" />
+                      <p>Start 20 April, 2021</p>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="col-md-6 icon-icon d-flex">
+                          <img  src="images/ICON/people.png" />
+                          <p>60 seats</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card  h-100">
+            <img src="images/Photos/Morder pyschology.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h2 class="card-title">Modern Psychology</h2>
+              <p class="card-text">Designation</p>
+              <button class="signin" href="#">Buy Course</button>
+            </div>
+            <div class="devs">
+                <div class="row">
+                    <div class="col-md-6 icon-icon d-flex">
+                      <img  src="images/ICON/calendar.png" />
+                      <p>Start 20 April, 2021</p>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="col-md-6 icon-icon d-flex">
+                          <img  src="images/ICON/people.png" />
+                          <p>60 seats</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
+<!--Testimonial-->
+<div class="container container-margin">
+    <div class="course text-center">
+        <h2>Testimonial</h2>
+    </div>
+    <div class="row align-items-center ">
+        <div class="col-md-6 mx-auto d-flex">
+            <img class="image-width" src="images/Photos/Man.png"/>
+            <p class="margin-desc">There are many variations of passages of Lorem Ipsum available, but themajority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+        </div>
+    </div>
 
+</div>
+
+<!--Footer-->
+<div class="footer">
+<div class="container">
+    <div class="row ">
+        <div class="col-md-6 text-start">
+            <h5>Millions of people of all ages and from around the world are improving their lives with us</h5>
+        </div>
+        <div class="col-md-2 d-flex flex-column text-start">
+            <h4>Course</h4>
+            <b>Graphics Design</b>
+            <b>Web Design</b>
+            <b>Web Design</b>
+            <b>Business</b>
+            <b>Marketing</b>
+            
+        </div>
+        <div class="col-md-2 d-flex flex-column text-start">
+            <h4>Terms</h4>
+            <b>Graphics Design</b>
+            <b>Web Design</b>
+            <b>Web Design</b>
+            <b>Business</b>
+            <b>Marketing</b>
+        </div>
+        <div class="col-md-2 d-flex flex-column text-start">
+            <h4>Usefull Links</h4>
+            <b>Graphics Design</b>
+            <b>Web Design</b>
+            <b>Web Design</b>
+            <b>Business</b>
+            <b>Marketing</b>
+        </div>
+       
+            <span class=" footer-content text-center">Copyright © 2021 developerkosru.com</span>
+          
+    </div>
+    
+
+</div>
+</div>
 
 
 
