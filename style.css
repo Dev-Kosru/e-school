@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0;
+}
+.navbar-brand img{
+    width:150px;
+}
+.navbar-nav a{
+    margin:0px 15px;
+}
+.signin, .signin a{
+    background-color: green;
+    padding:5px 30px;
+    border-radius: 50px;
+    color:white;
+    text-decoration: none;
+    border:none;
+}
+.container-margin{
+    margin:100px auto;
+}
+.span-color{
+    color:orange;
+    margin: 18px auto;
+}
+.main-heading{
+    font-size: 52px;
+    font-weight: bold;
+    margin:10px auto;
+}
+.head-color{
+    color:green;
+}
+p{
+    margin:30px auto;
+}
+.icons img{
+    width:150px;
+    height:150px;
+    margin:auto;
+}
